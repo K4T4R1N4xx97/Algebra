@@ -1,0 +1,25 @@
+body{
+    display:flex;
+    justify-content: center;
+    }
+
+
+.cube{
+    height: 400px;
+    width: 400px;
+    background-color: #ccc8c8;
+    border:10px solid #615f5f;
+    }
+
+.div1{
+    width:200px;
+    height:200px;
+    background-color: rgb(238, 54, 70);
+}
+
+.div2{
+    width:200px;
+    height:200px;
+    background-color: rgb(85, 115, 252);
+    margin-left: 200px;
+}
