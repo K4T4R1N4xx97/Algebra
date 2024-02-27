@@ -1,0 +1,50 @@
+/*NESTING*/
+header {
+    text-align: center;
+
+    h1 {
+        color: red;
+    }
+
+    p {
+        color: blue;
+    }
+
+}
+
+section {
+    h1 {
+        color: pink;
+        background-color: goldenrod;
+    }
+}
+
+
+/*VARIJABLE*/
+
+$color1: orange;
+$font-size: 50px;
+
+
+article {
+    color: $color1;
+    font-size: $font-size ;
+}
+
+/*MIXIN*/
+
+@mixin flex-container {
+    display: flex;
+    background-color: $color1;
+    justify-content: center;
+}
+
+aside {
+    @include flex-container()
+}
+
+@mixin proba($display, $txt, $space) {
+    display: $display;
+    text-align: $txt;
+    margin: $space;
+}

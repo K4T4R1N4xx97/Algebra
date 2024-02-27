@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("/images/blur-clean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+section {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+
+section div {
+    font-size: 150px;
+    font-family: sans-serif;
+    color: white;
+    border: 5px solid white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    top: -300px;
+    ;
+}
+
+.div1 {
+    background: rgba(0, 0, 0, 0.5);
+    animation-name: div1;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    position: relative;
+    animation-iteration-count: infinte;
+
+}
+
+.div2 {
+    background: rgba(184, 43, 43, 0.5);
+    animation-name: div2;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    position: relative;
+    animation-iteration-count: infinte;
+}
+
+.div3 {
+    background: rgba(192, 118, 33, 0.5);
+    animation-name: div3;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 4.5s;
+    position: relative;
+    animation-iteration-count: infinte;
+}
+
+/*-----------------------*/
+
+@keyframes div1 {
+    0% {
+        top: -300px;
+    }
+
+
+
+    100% {
+        top: 450px;
+    }
+}
+
+@keyframes div2 {
+    0% {
+        top: -300px;
+    }
+
+
+    100% {
+        top: 450px;
+    }
+}
+
+@keyframes div3 {
+    0% {
+        top: -300px;
+    }
+
+
+
+    100% {
+        top: 450px;
+    }
+}

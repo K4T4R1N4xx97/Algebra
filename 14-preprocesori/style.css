@@ -1,0 +1,28 @@
+/*NESTING*/
+header {
+  text-align: center;
+}
+header h1 {
+  color: red;
+}
+header p {
+  color: blue;
+}
+
+section h1 {
+  color: pink;
+  background-color: goldenrod;
+}
+
+/*VARIJABLE*/
+article {
+  color: orange;
+  font-size: 50px;
+}
+
+/*MIXIN*/
+aside {
+  display: flex;
+  background-color: orange;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
